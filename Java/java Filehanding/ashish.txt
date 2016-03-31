@@ -1,0 +1,9 @@
+#include "ashish.h"
+
+ashish::ashish()
+{
+    ashish(){
+        cout<<hi;
+    }
+}
+hi my name is ashish doneriya.

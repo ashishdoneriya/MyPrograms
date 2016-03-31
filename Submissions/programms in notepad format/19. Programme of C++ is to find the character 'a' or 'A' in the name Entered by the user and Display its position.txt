@@ -1,0 +1,35 @@
+/*This programme of C++ is to find the character 'a' or 'A' in the name Entered by the user and Display its position*/
+/*Name:-Ashish Doneriya */
+/*Scholar Number :-101112011 */
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	char str[100];
+	int len,i;
+	clrscr();
+	do
+	{
+		/*Accepting the string from the user */
+		cout<<"Enter your name : ";
+		cin.getline(str,99);
+		len=strlen(str);
+		for (i=0;i<len;i++)
+		{
+			if(str[i]=='A'||str[i]=='a')
+				break;
+		}
+		if((str[i]!='A'||str[i]!='a')&&i==len)
+			cout<<"A is not found\n";
+		else
+			cout<<"Location of "<<str[i]<<" in "<<str<<" is "<<i+1<<"\n";
+	}
+	while(len!=0);
+	getch();
+}
+
+			//OUTPUT
+
+
+

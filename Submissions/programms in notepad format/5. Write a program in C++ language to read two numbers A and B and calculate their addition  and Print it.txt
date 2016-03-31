@@ -1,0 +1,24 @@
+/*Write a program in C++ language to read two numbers A and B and calculate their addition  and Print it */
+/*Name :- Ashish Doneriya*/
+/*Scholar No. 101112011*/
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int A,B,C;
+	clrscr();
+	cout<<"This program is to read two numbers A and B and to calculate addition  and Print it\n";
+	cout<<"Reading values of Input\n";
+	cout<<"Enter value of A and B : ";
+	cin>>A>>B;
+	cout<<"Calculating sum of given numbers\n";
+	C=A+B;
+	cout<<"Printing the result\n";
+	cout<<"Sum of "<<A<<" and "<<B<<" is "<<C;
+	getch();
+}
+
+						//OUTPUT
+
+ 

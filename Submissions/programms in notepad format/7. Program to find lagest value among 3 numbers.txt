@@ -1,0 +1,34 @@
+
+/*Program to find lagest value among 3 numbers */
+import java.util.Scanner;
+class Larger
+{
+	public static void main(String []args)
+	{
+		int a,b,c,big;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Program to find larger of three numbers");
+		System.out.print("Give first number : ");
+		a=in.nextInt();
+		System.out.print("Give Second number : ");
+		b=in.nextInt();
+		System.out.print("Give third number : ");
+		c=in.nextInt();
+		System.out.println("Calculating largest Value");
+		if(a>b&&a>c)
+			big=a;
+		else if(b>a&&b>c)
+			big=b;
+		else if(c>a&&c>b)
+			big=c;
+		else if((a==b&&a==c)||(a==b&&a>c)||(a==c&&a>b))
+			big=a;
+		else
+			big=b;
+		System.out.println("Largest Value is "+big);
+	}
+}
+
+
+
+

@@ -1,0 +1,34 @@
+int c;
+while ( ( c = getchar() ) != EOF && c != '\n' )
+
+
+
+
+
+scanf ( "%*[^\n]" );
+scanf ( "%*c" );
+
+
+
+
+
+
+int ch;
+while ( (ch=getchar()) != EOF && ch != '\n' )
+
+
+
+int myint;
+scanf("%d",&myint);
+
+
+
+
+int myint;
+char buff[BUFSIZ];
+fgets( buff, sizeof buff, stdin );
+sscanf( buff, "%d", &myint );
+
+
+
+

@@ -1,0 +1,23 @@
+/*Write a program in C language to read two numbers A and B and to calculate addition  in C and Print it */ 
+/*Name :- Ashish Doneriya*/ 
+/*Scholar No. 101112011*/ 
+
+#include<stdio.h> 
+#include<conio.h> 
+void main() 
+{ 
+	int A,B,C; 
+	clrscr(); 
+	printf(This program is to read 2 no. A & B & to calculate addition & Print it\n); 
+	printf(“Reading values of Input\n”); 
+	printf("Enter value of A and B : "); 
+	scanf("%d %d",&A,&B); 
+	printf(Calculating sum of given numbers\n); 
+	C=A+B; 
+	printf(Printing the result\n); 
+	printf("Sum of %d and %d is %d",A,B,C); 
+	getch(); 
+}
+ 
+				//	OUTPUT
+

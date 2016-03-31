@@ -1,0 +1,13 @@
+/*Write a Program in java to print "My name is Ashish"*/
+/*Name :- Ashish Doneriya*/
+/*Scholar No. 101112011*/
+
+class PrintName
+{
+	public static void main(String []args);
+	{
+		System.out print("My name is Ashish");
+	}
+}
+//OutPut
+

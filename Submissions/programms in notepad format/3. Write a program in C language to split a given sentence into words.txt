@@ -1,0 +1,27 @@
+/*Write a program in C language to split a given sentence into words */
+/*Name :- Ashish Doneriya*/
+/*Scholar No. 101112011*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	char str[70];
+	clrscr();
+	printf(“This program is to split a given sentence into words”);
+	printf(“Getting the string\n”);
+	printf("Enter the string : ");
+	gets(str);
+	for (i=0;str[i]!='\0';i++)
+	{
+		if (str[i]==' ')
+			printf("\n");
+		else
+			printf("%c",str[i]);
+	}
+	getch();
+}
+
+//Output :-
+ 

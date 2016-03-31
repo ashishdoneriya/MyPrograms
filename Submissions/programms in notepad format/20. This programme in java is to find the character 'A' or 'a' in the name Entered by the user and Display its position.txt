@@ -1,0 +1,37 @@
+/*This programme in java is to find the character 'A' or 'a' in the name Entered by the user and Display its position*/
+/*Name:-Ashish Doneriya */
+/*Scholar Number :-101112011 */
+import java.util.Scanner;
+class FindA
+{
+    public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		int i,j,len;
+		String name;
+		do
+		{
+			System.out.print("Enter your name : ");
+			name=in.nextLine();
+			len=name.length();
+			if(len==0)
+				System.exit(0);
+			i=name.indexOf("a");
+			j=name.indexOf("A");
+			if (i==-1&&j==-1)
+			{
+				System.out.println("A is not found in "+name);
+				System.exit(0);
+			}
+			System.out.println("Position of "+((i>j)?"a":"A")+" in "+name+" is "+((i!=-1?i:j)+1));
+		}
+		while(len!=0);
+	}
+}
+
+
+
+					//OUTPUT
+
+
+

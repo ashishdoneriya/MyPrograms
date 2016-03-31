@@ -1,0 +1,31 @@
+/*Write a program in C++ to accept three values from the user and print the greatest number*/
+/*Name - Ashish Doneriya */
+/*Scholar No. - 101112011 */
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,d; /*d is a variable which holds the greatest number*/
+	clrscr();   /*clearing the output screen*/
+	cout<<"This program is to accept three values from the user and print the greatest of all the three 	numbers"<<endl;
+	cout<<"Enter the three numbers : ";
+	cin>>a>>b>>c;
+	cout<<"Calculating the greatest of three numbers"<<endl;
+	if(a>b&&a>c)
+		d=a;
+	else if(b>a&&b>c)
+		d=b;
+	else if(c>a&&c>b)
+		d=c;
+	else if((a==b&&a==c)||(a==b&&a>c)||(a==c&&a>b))
+		d=a;
+	else
+		d=b;
+	cout<<"Printing the result"<<endl;
+	cout<<"Greatest among all the three numbers is "<<d;
+	getch();
+}
+
+					//OUTPUT
+
+ 

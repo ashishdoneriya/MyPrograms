@@ -1,0 +1,37 @@
+void main()
+{
+
+struct stack s;
+s.tos==-1;
+----------------
+-----------------//fill the elemnt i originalStack;
+--------------
+s=sort(&s);
+printf()-----
+----------//print the sorted array;
+----------
+
+ struct stack *sort(struct stack *s)
+{
+struct stack tempS;
+tempS.tos==-1;
+while(s->tos!=-1)
+{
+int x=pop(s);
+if(peek(s)<x)
+int p=pop(s);
+push(s,x);
+while(tempS.tos!=-1 && p<peek(&tempS))
+{
+push(s,pop(&tempS));
+}
+push(&tempS,p);
+while(peek(s)!=x)
+{
+push(&tempS,pop(s));
+}
+*s=tmpS;
+return s;
+}
+
+

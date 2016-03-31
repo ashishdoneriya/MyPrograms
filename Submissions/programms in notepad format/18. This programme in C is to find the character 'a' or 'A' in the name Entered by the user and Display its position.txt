@@ -1,0 +1,35 @@
+/*This programme in C is to find the character 'a' or 'A' in the name Entered by the user and Display its position*/
+/*Name:-Ashish Doneriya */
+/*Scholar Number :-101112011 */
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	char str[100];
+	int len,i;
+	clrscr();
+	do
+	{
+		printf("Enter your name : ");
+		gets(str);				/*Accepting the string from the user */
+		len=strlen(str);
+		for (i=0;i<len;i++)
+		{
+			if(str[i]=='A'||str[i]=='a')
+				break;
+		}
+		if((str[i]!='A'||str[i]!='a')&&i==len)
+			printf("A is not found\n");
+		else
+			printf("Location of %c in %s is %d\n",str[i],str,i+1);
+	}
+	while(len!=0);
+	getch();
+}
+
+	//OUTPUT
+
+
+
+

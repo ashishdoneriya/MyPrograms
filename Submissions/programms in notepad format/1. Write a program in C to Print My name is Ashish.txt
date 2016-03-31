@@ -1,0 +1,16 @@
+/*Write a program in C to Print My name is Ashish*/
+/*Name :- Ashish Doneriya*/
+/*Scholar No. 101112011*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	printf("My name is Ashish");
+	getch();
+}
+
+
+
+ 

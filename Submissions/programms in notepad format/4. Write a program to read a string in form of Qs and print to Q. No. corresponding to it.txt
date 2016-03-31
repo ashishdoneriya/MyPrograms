@@ -1,0 +1,21 @@
+/*Write a program to read a string in form of Qs and print to Q. No. corresponding to it */
+/*Name :- Ashish Doneriya*/
+/*Scholar No. 101112011*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char str[100];
+	int i;
+	clrscr();
+	printf("Type Youe question : ");
+	gets(str);
+	for (i=0;str[i+1]!=')';i++);
+	printf("Question no. corresponing to this question is %c",str[i]);
+	getch();
+}
+
+		//		OUTPUT 
+
+ 
